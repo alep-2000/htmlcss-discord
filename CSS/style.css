@@ -127,14 +127,21 @@ body{
 
 .col-40{
     width: 40%;
-    border: 1px dashed black;
-    background-color: pink;
 }
 
 .col-60p{
     width: 60%;
-    border: 1px dashed black;
-    background-color: rgb(24, 159, 243);
+}
+
+.title-2{
+    font-size: 26px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.paragraph-2{
+    text-align: center;
+    margin-top: 20px;
 }
 
 .section-4{
