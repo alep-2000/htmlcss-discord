@@ -172,7 +172,7 @@ body{
 .wave{
     width: 100%;
     opacity: 0.1;
-    margin-bottom: -5px;
+    display: flex;
 }
 /* END WAVE */
 /* WAVE-2 */
