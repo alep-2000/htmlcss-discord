@@ -76,7 +76,7 @@ body{
 .row-2{
     display: flex;
     align-items: center;
-    margin: 10px 0;
+    margin: 30px 0 30px 0;
 }
 
 .col-100{
@@ -101,7 +101,7 @@ body{
 }
 
 .white{
-    padding:12px 6px 12px 12px;
+    padding: 10px 14px 10px 14px;
 }
 
 .black{
@@ -111,20 +111,23 @@ body{
     margin-left: 20px;
 }
 
+.wave-2{
+    transform: scale(-1);
+    width: 100%;
+    opacity: 0.1;
+}
+
 .section-3{
     width: 100%;
-    height: 500px;
 }
 
 .container-3{
     width: 80%;
     margin: 0 auto;
-    padding:40px 0;
 }
 
 .row-3{
     display: flex;
-    margin: 10px 0;
 }
 
 .col-40{
@@ -148,8 +151,7 @@ body{
 
 .section-4{
     width: 100%;
-    height: 500px;
-    background-color: lightgray;
+    background-color: rgb(230, 227, 227);
 }
 
 .title-3{
@@ -174,14 +176,16 @@ body{
     margin-top: 30px;
 }
 
+.wave{
+    width: 100%;
+    opacity: 0.1;
+    margin-bottom: -5px;
+}
+
 .section-5{
     width: 100%;
-    height: 900px;
-    /* background-image: url(../img/wave.svg);
-    background-size: contain;
-    width: 100%;
-    opacity: 0.1; */
-
+    height: 1000px;
+    background-color: rgb(230, 227, 227);
 }
 
 .container-4{
@@ -192,7 +196,7 @@ body{
 
 .row-4{
     display: flex;
-    margin: 10px 0;
+    /* margin: px 0; */
 }
 
 .col100{
@@ -217,38 +221,35 @@ body{
 .title-6{
     font-size: 28px;
     text-align: center;
-    background-image: url(../img/stars.svg);
-    background-size: cover;
+}
+
+.star{
+    margin: 0 auto;
 }
 
 .button-main{
-    text-align: center;
+    margin-top: 30px;
     background-color: rgb(57, 57, 236);
     opacity: 0.3;
     border: none;
     border-radius: 20px;
-    padding: 10px;
+    padding: 10px 14px 10px 14px;
     color: white;
 }
-
-
 /* FINE MAIN */
 /* FOOTER */
 .section-6{
     width: 100%;
-    height: 600px;
     background-color: rgb(46, 45, 45);
 }
 
 .container-5{
     width: 70%;
-    height: 550px;
     margin: 0 auto;
     padding:10px 0;
 }
 
 .row-5{
-    height: 550px;
     display: flex;
     margin: 5px 0 15px 0;
 }
@@ -269,7 +270,7 @@ body{
 }
 
 .color{
-    color: rgb(73, 57, 245);
+    color: rgb(101, 93, 155);
 }
 
 .img-flag{
@@ -315,6 +316,7 @@ body{
 
 .product-list{
     list-style-type: none;
+    color: white;
 }
 
 .companies{
@@ -335,15 +337,18 @@ body{
     margin-top: 50px;
 }
 
+hr{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .section-footer{
     width: 100%;
-    height: 80px;
-    background-color: rgb(65, 36, 253);
+    background-color: rgb(46, 45, 45);
 }
 
 .container-6{
     width: 70%;
-    height: 40px;
     margin: 0 auto;
     padding:10px 0;
 }
@@ -351,17 +356,20 @@ body{
 .row-6{
     display: flex;
     justify-content: space-between;
-    height: 40px;
-    margin: 10px 0;
-    background-color: rgb(99, 207, 180);
+    margin: 10px 0 50px 0;
 }
 
 .col-footer-20{
     width: 6%;
-    height: 22px;
     align-self: center;
-    border: 1px dashed black;
-    background-color: lightcoral;
     text-align: center;
+}
+
+.button-footer{
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgb(101, 93, 155);
+    color: white;
 }
 /* FINE FOOTER */
